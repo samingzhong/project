@@ -1,0 +1,49 @@
+PODS:
+  - CTMediator (0.1.0)
+  - HomeVC (0.1.0):
+    - CTMediator
+    - Masonry
+    - ModuleActionsCategorys/SettingVC
+  - Masonry (1.1.0)
+  - ModuleActionsCategorys (0.1.0):
+    - ModuleActionsCategorys/HomeVC (= 0.1.0)
+    - ModuleActionsCategorys/SettingVC (= 0.1.0)
+  - ModuleActionsCategorys/HomeVC (0.1.0):
+    - CTMediator
+  - ModuleActionsCategorys/SettingVC (0.1.0):
+    - CTMediator
+  - SettingVC (0.1.0):
+    - CTMediator
+    - Masonry
+    - ModuleActionsCategorys/HomeVC
+
+DEPENDENCIES:
+  - CTMediator (from `../CTMediator`)
+  - HomeVC (from `../HomeVC`)
+  - ModuleActionsCategorys (from `../ModuleActionsCategorys`)
+  - SettingVC (from `../SettingVC`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  CTMediator:
+    :path: "../CTMediator"
+  HomeVC:
+    :path: "../HomeVC"
+  ModuleActionsCategorys:
+    :path: "../ModuleActionsCategorys"
+  SettingVC:
+    :path: "../SettingVC"
+
+SPEC CHECKSUMS:
+  CTMediator: 9e3c710b119fcd6a98e5c1a149ce440e1fbe263d
+  HomeVC: 7917e5b397617418fb763429fd8d07d3032f13be
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ModuleActionsCategorys: e400c8aef6e198fa6a915f7bc3e5fbf2aa5d44ad
+  SettingVC: 5ed169939d5df4aa25cb15937436ae3d66494ccb
+
+PODFILE CHECKSUM: dc54cc4c24eda5954e49658fbc870b3fd7bfb89a
+
+COCOAPODS: 1.11.2

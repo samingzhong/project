@@ -1,0 +1,42 @@
+{
+  "name": "ModuleActionsCategorys",
+  "version": "0.1.0",
+  "summary": "A short description of ModuleActionsCategorys.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/samingzhong/ModuleActionsCategorys",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "samingzhong": "samingzhong@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/samingzhong/ModuleActionsCategorys.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ModuleActionsCategorys/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "HomeVC",
+      "source_files": "ModuleActionsCategorys/Classes/HomeVC/*.{h,mm,m}",
+      "dependencies": {
+        "CTMediator": [
+
+        ]
+      }
+    },
+    {
+      "name": "SettingVC",
+      "source_files": "ModuleActionsCategorys/Classes/SettingVC/*.{h,mm,m}",
+      "dependencies": {
+        "CTMediator": [
+
+        ]
+      }
+    }
+  ]
+}

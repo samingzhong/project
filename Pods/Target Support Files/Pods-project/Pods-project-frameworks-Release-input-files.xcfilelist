@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-project/Pods-project-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/HomeVC/HomeVC.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
+${BUILT_PRODUCTS_DIR}/ModuleActionsCategorys/ModuleActionsCategorys.framework
+${BUILT_PRODUCTS_DIR}/SettingVC/SettingVC.framework
